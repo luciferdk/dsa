@@ -10,6 +10,17 @@ public:
                 maxAltitude = currentAltitude;  // Update the maximum altitude if necessary
             }
         }
+
+
+
+        //OR
+    /* for (int i = 0; i < gain.length; i++) {  
+    currentAltitude += gain[i];  // Use gain[i] instead of g
+    if (currentAltitude > maxAltitude) {
+        maxAltitude = currentAltitude;  
+    } 
+}*/
+
         
         return maxAltitude;
     }
